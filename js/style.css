@@ -1,0 +1,56 @@
+
+/* 
+    Created on : 10.03.2021, 08:54:17
+    Author     : ahmad
+*/
+
+#photoViewer{
+    position: relative;
+    overflow: hidden;
+    width: 940px;
+    height: 430px;
+}
+
+
+#photoViewer img{
+    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#thumbnails{
+    margin: 10px 5px 0 0;
+    height: 111px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+#thumbnails img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+a.active{
+    opacity: 0.4;
+}
+
+.thumb{
+   
+}
+
+nav{
+    height: 50px;
+    background: lightcyan;
+    
+}
+
+nav button{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px;
+    padding: 5px;
+}
